@@ -31,6 +31,6 @@ $ python main.py -config Networks/config_file.yaml -checkpoint checkpoint/ckpt.p
 ```
 
 In the config files:
-The learning urle is set in the "rule" section of the config file.  The proposed rule is set as "TPA"
+The learning ruleis set in the "rule" section of the config file.  The proposed rule is set as "TPA"
 The end of time temporal reconstruction method for TPA is set in "tpa_filler" section
 Other hyperparameters such as the decay rate and the learning rate are listed 
